@@ -1,0 +1,40 @@
+/* 
+Together-3
+ */
+
+footer a{
+  display: inline-block;
+  margin: 20px 10% 0 35%;
+}
+#facebook{
+  width: 50px;
+  height: 50px;
+  background: url("https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png");
+background-size: 50px;
+    border-radius: 8px;
+  transition-property: transform , background;
+  transition-duration: 0.5s;
+}
+#facebook:hover{
+transform: rotate(1440deg);
+  background: url("https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-128.png");
+background-size: 56px;
+background-position: -3px -3px;
+}
+#googleplus{
+  width: 50px;
+  height: 50px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Google_plus.svg/1047px-Google_plus.svg.png");
+background-size: 52px;
+  border-radius: 11px;
+  background-position: center;
+  transition-property: transform , background;
+  transition-duration: 0.5s;
+    margin-left: 0;
+}
+#googleplus:hover{
+transform: rotate(1440deg);
+  background: url("https://lh3.googleusercontent.com/-IMGb4CkWC98/VeXR6rWlM1I/AAAAAAAA7c4/aC-I28R6_psCNtxmIXAtNuMja5wCYUR9A/s506/GooglePlus-logos-02.png");
+background-size: 50px;
+
+}

@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial, tahoma;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DDD;
+}
+header{
+    height: 70px;
+    background-color: #444;
+    perspective: 1000px;
+}
+header img{
+    float: left;
+    height: 150px;
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+header img:hover{
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+header nav{
+    float: left;
+    margin: 25px 0 22px 8%;
+    color: #FFF;
+    font-size: 20px;
+    width: 40%;
+    white-space: nowrap;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 0 2%;
+}
+header nav ul li:after{
+    content: "|";
+    margin-left: 10%;
+    color: #747474;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #E0E0E0;
+    text-transform: capitalize;
+}
+.clearfix{
+    clear: both;
+}
+.container aside{
+    width: 20%;
+    float: left;
+    border: 5px solid #EEE;
+    border-radius: 10px;
+    line-height: 2;
+    margin-right: 2%;
+    background: #808080;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    height: 2500px;
+}
+.container aside ul{
+    list-style: none;
+}
+.container aside ul li a{
+    color: #FFF;
+}
+.container section{
+    width: 78%;
+    float: left;
+    margin-bottom: 50px;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container section h3{
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container section article{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    border: 1px solid #000;
+    padding: 5px;
+}
+.container section article h5{
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    background-color: #9c4f4f;
+    border-radius: 10px;
+    line-height: 32px;
+}
+.container section article div{
+    margin-top: 5px;
+    text-align: justify;
+}
+.container section video{
+    margin: 0 auto;
+}
+.container form.contactUs{
+    margin: 150px 50px 10px;
+}
+.container .contactUs fieldset{
+    padding: 20px;
+    background-color: #D0D0D0;
+}
+.container .contactUs fieldset legend{
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #000;
+    color: #FFF;
+    padding: 0 10px;
+}
+.container .contactUs fieldset label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container .contactUs fieldset label input{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.container .contactUs fieldset input#send{
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+}
+.container .contactUs fieldset label textarea{
+    width: 100%;
+    height: 200px;
+    display: block;
+    max-width: 500px;
+}
+.container form.signUp{
+    width: 400px;
+    margin: 100px auto;
+}
+.container .signUp fieldset{
+    padding: 25px;
+    background-color: #67e0ac;
+    border-radius: 50px;
+    text-align: center;
+}
+.container .signUp fieldset legend{
+    background-color: #16bb74;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #000;
+}
+.container .signUp fieldset label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container .signUp fieldset label input,select{
+    display: block;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+}
+.container .signUp fieldset input#signUp{
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+}
+.googleMaps{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+.googleMaps iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    frameborder: 0;
+}
+footer{
+    background-color: #444;
+    clear: both;
+    padding: 10px;
+}
+footer div{
+    color: #E6E6E6;
+    text-align: center;
+}
